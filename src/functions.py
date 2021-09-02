@@ -144,7 +144,7 @@ def createMaze(cols, rows, w):
             if i.visited == False:
                 running = True
         pygame.display.update()
-    # delay(10000)
+    delay(10000)
     return grid
     # current = grid[0]
     # running = True
